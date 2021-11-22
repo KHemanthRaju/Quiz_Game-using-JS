@@ -1,0 +1,25 @@
+{
+  "name": "QuizGame-using-JS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KHemanthRaju/Quiz_Game-using-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KHemanthRaju/Quiz_Game-using-JS/issues"
+  },
+  "homepage": "https://github.com/KHemanthRaju/Quiz_Game-using-JS#readme"
+}

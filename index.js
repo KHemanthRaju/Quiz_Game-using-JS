@@ -1,6 +1,6 @@
 //console.log("Hemanth Raju");
 var readLineSync= require("readline-sync");
-
+const chalk = require("chalk");
 var userName = readLineSync.question("What is your name? ");
 
 console.log("Hi "+userName+" Do you know Hemanth Raju?");
@@ -44,7 +44,7 @@ for(var i=0;i<questions.length;i++){
   play(currentQuestion.question,currentQuestion.answer);
 }
 
-console.log("YAY!! You scored : "+score)
+console.log("YAY!! You scored : "+chalk.blue(score))
 
 for(var i=0;i<highscores.length;i++){
   var highscore=highscores[i].score;
